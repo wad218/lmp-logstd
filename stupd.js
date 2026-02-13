@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    var TMDB_IMAGE_URL = 'https://image.tmdb.org/t/p/h50';
+    var TMDB_IMAGE_URL = 'https://image.tmdb.org/t/p/h100';
     var CACHE_TTL = 30 * 24 * 60 * 60 * 1000;
     var titleCache = Lampa.Storage.get("title_cache_uk_bold") || {};
 
