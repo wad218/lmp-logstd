@@ -35,16 +35,16 @@
                 '<div class="studio-logos-container" style="display: flex; align-items: center;">' + logosHtml + '</div>' +
             '</div>';
 
-        var details = $(".full-start-new__details", render);
-if(!details.length) details = $(".full-start__details", render);
+        var rateLine = $(".full-start-new__rate-line", render);
+if(!rateLine.length) rateLine = $(".full-start__rate-line", render);
 
-if(details.length){
-    details.after(html);
+if(rateLine.length){
+    rateLine.before(html);
 }
 else{
-    var target = $(".full-start-new__title", render);
-    if(!target.length) target = $(".full-start__title", render);
-    target.after(html);
+    var details = $(".full-start-new__details", render);
+    if(!details.length) details = $(".full-start__details", render);
+    details.after(html);
 }
 
         $('.rate--studio', render).on('hover:enter', function () {
