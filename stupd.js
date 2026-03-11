@@ -35,8 +35,8 @@
                 '<div class="studio-logos-container" style="display: flex; align-items: center;">' + logosHtml + '</div>' +
             '</div>';
 
-        var details = $(".cardify__details", render);
-if(!details.length) details = $(".full-start-new__details", render);
+        var details = $(".full-start-new__details", render);
+if(!details.length) details = $(".full-start__details", render);
 
 if(details.length){
     details.after(html);
