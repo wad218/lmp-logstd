@@ -36,10 +36,11 @@
         var target = $(".full-start-new__title", render);
 if(!target.length) target = $(".full-start__title", render);
 
-var details = $(".full-start-new__details", render);
+var rateLine = $(".full-start-new__rate-line", render);
+if(!rateLine.length) rateLine = $(".full-start__rate-line", render);
 
-if(details.length){
-    details.append(html);   // вставляємо всередину details
+if(rateLine.length){
+    rateLine.after(html);
 }
 else{
     target.after(html);
