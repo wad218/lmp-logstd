@@ -34,9 +34,16 @@
             '</div>';
 
         var target = $(".full-start-new__title", render);
-        if(!target.length) target = $(".full-start__title", render);
-        
-        target.after(html);
+if(!target.length) target = $(".full-start__title", render);
+
+var details = $(".full-start-new__details", render);
+
+if(details.length){
+    details.after(html);
+}
+else{
+    target.after(html);
+}
 
         $('.rate--studio', render).on('hover:enter', function () {
             var id = $(this).data('id');
