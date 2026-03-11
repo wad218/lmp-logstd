@@ -105,6 +105,7 @@ else{
         '.rate--studio.studio-logo.focus { background: rgba(255,255,255,0.2) !important; border: 1px solid #fff; transform: scale(1.05); }' +
         '.rate--studio.studio-logo img { max-height: 25px; !important; max-width: 90px; object-fit: contain; }' +
         '.studio-logo-text { font-size: 0.75em; font-weight: bold; color: #fff !important; }' +
+        '.cardify .rate--studio { display:none !important; }' +
     '</style>';
 
     if (!$('#studio-logos-combined-style').length) {
