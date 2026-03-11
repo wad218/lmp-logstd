@@ -31,9 +31,9 @@
 
         var logosHtml = getStudioLogosHtml(movie);
 
-        var html = '<div class="plugin-uk-title-combined" style="margin-top: 10px; margin-bottom: 15px; text-align: left; width: 100%; display: flex; flex-direction: column; align-items: flex-start;">' +
-                '<div class="studio-logos-container" style="display: flex; align-items: center;">' + logosHtml + '</div>' +
-            '</div>';
+        var html = '<div class="plugin-uk-title-combined" style="margin-top:10px;margin-bottom:10px;width:100%;">' +
+    '<div class="studio-logos-container" style="display:flex;align-items:center;gap:10px;">' + logosHtml + '</div>' +
+'</div>';
 
         var rateLine = $(".full-start-new__rate-line", render);
 if(!rateLine.length) rateLine = $(".full-start__rate-line", render);
