@@ -39,7 +39,7 @@ if(!target.length) target = $(".full-start__title", render);
 var details = $(".full-start-new__details", render);
 
 if(details.length){
-    details.after(html);
+    details.append(html);   // вставляємо всередину details
 }
 else{
     target.after(html);
