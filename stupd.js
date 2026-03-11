@@ -31,7 +31,7 @@
 
         var logosHtml = getStudioLogosHtml(movie);
 
-        var html = '<div class="plugin-uk-title-combined" style="margin-top:10px;margin-bottom:10px;width:100%;">' +
+        var html = '<div class="plugin-uk-title-combined cardify__details" style="margin-top:10px;margin-bottom:10px;width:100%;">' +
     '<div class="studio-logos-container" style="display:flex;align-items:center;gap:10px;">' + logosHtml + '</div>' +
 '</div>';
 
