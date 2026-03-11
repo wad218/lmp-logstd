@@ -36,11 +36,11 @@
         var target = $(".full-start-new__title", render);
 if(!target.length) target = $(".full-start__title", render);
 
-var rateLine = $(".full-start-new__rate-line", render);
-if(!rateLine.length) rateLine = $(".full-start__rate-line", render);
+var details = $(".full-start-new__details", render);
+if(!details.length) details = $(".full-start__details", render);
 
-if(rateLine.length){
-    rateLine.after(html);
+if(details.length){
+    details.after(html);
 }
 else{
     target.after(html);
