@@ -25,6 +25,8 @@
         var render = Lampa.Activity.active().activity.render();
         if (!render) return;
 
+        if(render.find('.plugin-uk-title-combined').length) return;
+
         $(".plugin-uk-title-combined", render).remove();
 
         var logosHtml = getStudioLogosHtml(movie);
